@@ -13,7 +13,6 @@ body{
   background: none;
   border: none;
   cursor: pointer;
-  
 }
 
 .icon-button.moon:hover{
@@ -25,38 +24,13 @@ body{
   background-color: #FDF5E1;
   transition: 0.5s;
 }
-
-
 /* _________________________main___________________________________________________________________________________________________ */
+
 main {
-height: 100vh;
+  height: 100vh;
 }
 
 /* ______________________КНОПКИ__________________________________________________________________ */
-
-.buttons a {
-  border-color: black !important; 
-}
-
-.btn-f1:hover .btn1,
-.btn-f1:hover .btn2 {
-  background-color: #dd55d2b0;
-}
-
-.btn-f2:hover .btn3,
-.btn-f2:hover .btn4 {
-  background-color: #2831a759;
-}
-
-.btn-f3:hover .btn5,
-.btn-f3:hover .btn6 {
-  background-color: #aceef7b0;
-}
-
-.btn-f4:hover .btn7,
-.btn-f4:hover .btn8 {
-  background-color: #3ba73b77;
-}
 
 .buttons img {
   width: 21px;
@@ -79,14 +53,14 @@ height: 100vh;
   padding: 10px !important;
 }
 
-.btn-f3 {
-  margin-top: 10vh;
+.buttons{
+  gap: 15px;
 }
 
-.btn-f4 {
-  margin-top: 10vh; 
-}
-
+a > img {
+  background-color: transparent;
+  border: none
+ }
 
 /* ______________сверху не меняется______________________________________________________________________________________ */
 
@@ -109,3 +83,96 @@ main {
   color: white;
 }
 
+.boss {
+  border: 1px solid rgb(224, 255, 255);
+  -webkit-box-shadow: 0px 5px 13px 5px rgba(81, 97, 126, 0.212);
+  -moz-box-shadow: 0px 5px 13px 5px rgba(81, 97, 126, 0.2);
+  box-shadow: 0px 5px 13px 5px rgba(81, 97, 126, 0.2);
+}
+
+/* _____________________________КНОПКИ___________________________ */
+
+/* border */
+.btn-f1 a {
+  border-color: #801e7688 !important;
+}
+
+.btn-f2 a {
+  border-color: #1c238f59 !important;
+}
+
+.btn-f3 a {
+  border-color: #3f7c859c !important;
+}
+
+.btn-f4 a {
+  border-color: #246d2477 !important;
+}
+/* background */
+.btn-f1  {
+  background-color: #ffb3f936;
+}
+
+.btn-f2  {
+  background-color: #a0a1ff1e;
+}
+
+.btn-f3 {
+  background-color: #abf2ff25;
+}
+
+.btn-f4  {
+  background-color: #b7ffbd18;
+}
+
+/* HOVER */
+.btn-f1:hover  {
+  background-color: #fcc6f7b0;
+}
+.btn1, .btn2{
+  background-color: transparent !important;
+}
+
+
+.btn-f2:hover  {
+  background-color: #a0baffb0;
+}
+.btn3, .btn4{
+  background-color: transparent !important;
+}
+
+
+.btn-f3:hover  {
+  background-color: #a7edfaa1;
+}
+.btn5, .btn6{
+  background-color: transparent !important;
+}
+
+.btn-f4:hover  {
+  background-color: #d9ffd1b0;
+}
+.btn7, .btn8{
+  background-color: transparent !important;
+}
+
+/* active */
+.btn-f1:active {
+  background-color: #e78ede88;
+  color: white;
+}
+
+.btn-f2:active {
+  background-color: #8086df59;
+  color: white;
+}
+
+.btn-f3:active {
+  background-color: #88d2dd9c;
+  color: white;
+}
+
+.btn-f4:active {
+  background-color: #83da8377;
+  color: white;
+}
