@@ -113,24 +113,24 @@ main hr {
 /* _____________________________КНОПКИ___________________________ */
 
 /* border */
-.btn-f1 a {
-  border-color: #801e7688 !important;
+.buttons a{
   color: white;
 }
 
+.btn-f1 a {
+  border-color: #801e7688 !important;
+}
+
 .btn-f2 a {
-  border-color: #1c238f59 !important;
-  color: white;
+  border-color: #1c238f59 !important;;
 }
 
 .btn-f3 a {
   border-color: #3f7c859c !important;
-  color: white;
 }
 
 .btn-f4 a {
   border-color: #246d2477 !important;
-  color: white;
 }
 
 /* background */
@@ -151,9 +151,11 @@ main hr {
 }
 
 /* HOVER */
+.buttons:hover a{
+  color: white;
+}
 .btn-f1:hover  {
   background-color: #fd78f0d2;
-  color: rgb(255, 255, 255);
 }
 .btn1, .btn2{
   background-color: transparent !important;
@@ -161,7 +163,6 @@ main hr {
 
 .btn-f2:hover  {
   background-color: #759affda;
-  color: rgb(255, 255, 255);
 }
 .btn3, .btn4{
   background-color: transparent !important;
@@ -170,7 +171,6 @@ main hr {
 
 .btn-f3:hover  {
   background-color: #82e6f8c7;
-  color: rgb(255, 255, 255);
 }
 .btn5, .btn6{
   background-color: transparent !important;
@@ -178,7 +178,6 @@ main hr {
 
 .btn-f4:hover  {
   background-color: #b7ffa8c5;
-  color: rgb(255, 255, 255);
 }
 .btn7, .btn8{
   background-color: transparent !important;
