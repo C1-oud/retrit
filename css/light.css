@@ -91,6 +91,7 @@ main {
 }
 
 main .firstmain{
+  color: #a04242;
   background-color: #dff7fab0;
   -webkit-box-shadow: 0px 0px 10px 2px rgba(81, 97, 126, 0.2);
   -moz-box-shadow: 0px 0px 10px 2px rgba(81, 97, 126, 0.2);
@@ -101,9 +102,6 @@ main hr {
   color: rgb(66, 90, 124)
 }
 
-.navbarych {
-  color: white;
-}
 
 .boss {
   border: 1px solid rgb(224, 255, 255);
@@ -117,19 +115,24 @@ main hr {
 /* border */
 .btn-f1 a {
   border-color: #801e7688 !important;
+  color: #000;
 }
 
 .btn-f2 a {
   border-color: #1c238f59 !important;
+  color: #000;
 }
 
 .btn-f3 a {
   border-color: #3f7c859c !important;
+  color: #000;
 }
 
 .btn-f4 a {
   border-color: #246d2477 !important;
+  color: #000;
 }
+
 /* background */
 .btn-f1  {
   background-color: #ffb3f936;
@@ -150,6 +153,7 @@ main hr {
 /* HOVER */
 .btn-f1:hover  {
   background-color: #fcc6f7b0;
+  color: #000;
 }
 .btn1, .btn2{
   background-color: transparent !important;
@@ -158,6 +162,7 @@ main hr {
 
 .btn-f2:hover  {
   background-color: #a0baffb0;
+  color: #000;
 }
 .btn3, .btn4{
   background-color: transparent !important;
@@ -166,6 +171,7 @@ main hr {
 
 .btn-f3:hover  {
   background-color: #a7edfaa1;
+  color: #000;
 }
 .btn5, .btn6{
   background-color: transparent !important;
@@ -173,6 +179,7 @@ main hr {
 
 .btn-f4:hover  {
   background-color: #d9ffd1b0;
+  color: #000;
 }
 .btn7, .btn8{
   background-color: transparent !important;
