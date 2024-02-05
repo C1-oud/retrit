@@ -1,0 +1,65 @@
+
+/* ГРАДИЕНТ */
+ .navbar {
+    background: linear-gradient(45deg, rgba(119,200,234,1) 0%,rgba(159,216,239,1) 19%,rgba(159,216,239,1) 30%,rgba(159,216,239,1) 36%,rgba(191,232,249,1) 42%,rgba(191,232,249,1) 53%,rgba(228,245,252,1) 70%,rgba(228,245,252,1) 100%) 
+  } 
+
+
+  
+    
+    /* ПОДЧЕРКИВАНИЕ */
+    :root {
+      --borderColor: #858383;}
+.text {
+      &::before,
+      &::after {
+          content: "";
+          position: absolute;
+          width: 0%;
+          transition: .3s ease-in-out;
+          transform: translate(-50%, -50%);
+          padding-left: -10px;
+      }
+      
+      &::before {
+          border-bottom: 1px solid var(--borderColor);
+
+          transform-origin: center;
+          transform: scaleX(0);
+          transition: transform 0.5s;
+      }
+      
+      &:hover::before,
+      &:hover::after {
+          width: calc(4% + 0px);
+          transform: scaleX(1);
+        }
+      } 
+
+       .icon-button {
+        border: none;
+        outline: none;
+        background-color: white;
+      }
+       
+       /* ТЕМНАЯ ТЕМА */
+      body {
+        background-color: #f8f9fa; 
+    }
+    
+    .text-light {
+        color: #000; 
+    }
+    
+    .dark-mode {
+        background-color: #343a40; 
+    }
+    
+    .dark-mode .text-light {
+        color: #fff; 
+    }
+.icon-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+} 
