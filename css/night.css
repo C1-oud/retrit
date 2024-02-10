@@ -1,9 +1,13 @@
 /* _________________________header___________________________________________________________________________________________________ */
 
-body{
+body {
   font-family: 'Comfortaa', sans-serif !important;
-}
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 
+}
 .icon-button img {
     width: 21px;
     height: 21px;
@@ -45,7 +49,11 @@ body{
 /* _________________________main___________________________________________________________________________________________________ */
 
 main {
-  height: 100vh;
+  background-color: #2c3e50;
+  color: #d1d8e0;
+  display: flex;
+  height: auto;
+  min-height: 100%;
 }
 
 /* ______________________КНОПКИ__________________________________________________________________ */
@@ -156,6 +164,8 @@ main hr {
 }
 .btn-f1:hover  {
   background-color: #fd78f0d2;
+  transition: 0.15s;
+  transform: scale(1.05);
 }
 .btn1, .btn2{
   background-color: transparent !important;
@@ -163,6 +173,8 @@ main hr {
 
 .btn-f2:hover  {
   background-color: #759affda;
+  transition: 0.15s;
+  transform: scale(1.05);
 }
 .btn3, .btn4{
   background-color: transparent !important;
@@ -171,6 +183,8 @@ main hr {
 
 .btn-f3:hover  {
   background-color: #82e6f8c7;
+  transition: 0.15s;
+  transform: scale(1.05);
 }
 .btn5, .btn6{
   background-color: transparent !important;
@@ -178,6 +192,8 @@ main hr {
 
 .btn-f4:hover  {
   background-color: #b7ffa8c5;
+  transition: 0.15s;
+  transform: scale(1.05);
 }
 .btn7, .btn8{
   background-color: transparent !important;
@@ -202,4 +218,135 @@ main hr {
 .btn-f4:active {
   background-color: #83da8377;
   color: #bdc3c7;
+}
+
+/*___________________________ССЫЛКИ_________________________________________________________________________________________________________________________________________________________________________________________*/
+
+.dropdown {
+  position: relative;
+  
+}
+
+.dropdown-button {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: auto;
+  min-width: 600px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  visibility: hidden;
+  height: 150px;
+  width: 100%;
+  white-space: normal;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  text-overflow: ellipsis;
+  max-width: 600px;
+  min-height: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow-x: hidden;
+}
+
+.dropdown:focus-within .dropdown-content {
+  display: block;
+  visibility: visible;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+.dropdown:focus-within .dropdown-button {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+@media(max-width: 768px) {
+  .dropdown-button {
+    min-width: 450px !important;
+  }
+}
+
+@media(max-width: 500px) {
+  .dropdown-button {
+    min-width: 400px !important;
+  }
+}
+
+@media(max-width: 450px) {
+  .dropdown-button {
+    min-width: 350px !important;
+  }
+}
+
+@media(max-width: 400px) {
+  .dropdown-button {
+    min-width: 250px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .dropdown-content {
+    max-width: 450px !important;
+  }
+}
+
+@media(max-width: 500px) {
+  .dropdown-content {
+    max-width: 400px !important;
+  }
+}
+
+@media(max-width: 450px) {
+  .dropdown-content {
+    max-width: 350px !important;
+  }
+}
+
+@media(max-width: 400px) {
+  .dropdown-content {
+    max-width: 250px !important;
+  }
+}
+
+.dropdown-button {
+  color: rgba(255, 255, 255, 0.473);
+  background-color: rgba(72, 39, 82, 0.301);
+  border: 1px solid rgba(255, 255, 255, 0.473);
+}
+
+.dropdown-content {
+  color: rgba(255, 255, 255, 0.781);
+  background-color: rgba(72, 39, 82, 0.301);
+  border: 1px solid rgba(255, 255, 255, 0.473);
+}
+
+.dropdown-button:hover {
+  color: rgb(212, 212, 212);
+  background-color: rgba(48, 26, 54, 0.219);
+  border: 1px solid rgba(255, 255, 255, 0.473);
+}
+
+.dropdown-content::-webkit-scrollbar {
+  width: 3px;
+}
+
+.dropdown-content::-webkit-scrollbar-track {
+  background-color: rgba(72, 39, 82, 0.301);
+  border-radius: 100px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
 }
