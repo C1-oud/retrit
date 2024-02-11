@@ -1,6 +1,6 @@
 /* _________________________header___________________________________________________________________________________________________ */
 
-body{
+body {
   font-family: 'Comfortaa', sans-serif !important;
   height: 100vh;
   margin: 0;
@@ -8,9 +8,13 @@ body{
   overflow: auto;
 }
 
+.sun {
+  display: none;
+}
+
 .icon-button img {
-    width: 21px;
-    height: 21px;
+  width: 21px;
+  height: 21px;
 }
 
 .icon-button {
@@ -19,33 +23,36 @@ body{
   cursor: pointer;
 }
 
-.icon-button.moon:hover{
+.icon-button.moon:hover {
   background-color: #E7EBFF;
   transition: 0.5s;
 }
 
-.icon-button.sun:hover{
+.icon-button.sun:hover {
   background-color: #FDF5E1;
   transition: 0.5s;
 }
 
 @media(max-width: 500px) {
+
   .btn2,
   .btn4,
   .btn6,
   .btn8 {
-      width: 300px !important;
+    width: 300px !important;
   }
 }
 
 @media(max-width: 450px) {
+
   .btn2,
   .btn4,
   .btn6,
   .btn8 {
-      width: 200px !important;
+    width: 200px !important;
   }
 }
+
 /* _________________________main___________________________________________________________________________________________________ */
 
 main {
@@ -68,22 +75,22 @@ main {
 .btn5,
 .btn7 {
   width: 45px;
-  padding: 10px !important; 
+  padding: 10px !important;
 }
 
 .btn2,
 .btn4,
 .btn6,
 .btn8 {
-  width:400px; 
+  width: 400px;
   padding: 10px !important;
 }
 
-.buttons{
+.buttons {
   gap: 15px;
 }
 
-a > img {
+a>img {
   background-color: transparent;
   border: none
 }
@@ -98,7 +105,7 @@ main {
   color: #a04242;
 }
 
-main .firstmain{
+main .firstmain {
   flex-grow: 1;
   color: #a04242;
   background-color: #dff7fab0;
@@ -119,10 +126,8 @@ main hr {
   box-shadow: 0px 5px 13px 5px rgba(81, 97, 126, 0.2);
 }
 
-/* _____________________________КНОПКИ___________________________ */
-
 /* border */
-.buttons a{
+.buttons a {
   color: black;
 }
 
@@ -147,11 +152,11 @@ main hr {
 }
 
 /* background */
-.btn-f1  {
+.btn-f1 {
   background-color: #ffb3f936;
 }
 
-.btn-f2  {
+.btn-f2 {
   background-color: #a0a1ff1e;
 }
 
@@ -159,50 +164,58 @@ main hr {
   background-color: #abf2ff25;
 }
 
-.btn-f4  {
+.btn-f4 {
   background-color: #b7ffbd18;
 }
 
 /* HOVER */
-.buttons:hover a{
+.buttons:hover a {
   color: black;
 }
 
-.btn-f1:hover  {
+.btn-f1:hover {
   background-color: #fcc6f7b0;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn1, .btn2{
+
+.btn1,
+.btn2 {
   background-color: transparent !important;
 }
 
 
-.btn-f2:hover  {
+.btn-f2:hover {
   background-color: #a0baffb0;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn3, .btn4{
+
+.btn3,
+.btn4 {
   background-color: transparent !important;
 }
 
 
-.btn-f3:hover  {
+.btn-f3:hover {
   background-color: #a7edfaa1;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn5, .btn6{
+
+.btn5,
+.btn6 {
   background-color: transparent !important;
 }
 
-.btn-f4:hover  {
+.btn-f4:hover {
   background-color: #d9ffd1b0;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn7, .btn8{
+
+.btn7,
+.btn8 {
   background-color: transparent !important;
 }
 
@@ -225,4 +238,135 @@ main hr {
 .btn-f4:active {
   background-color: #83da8377;
   color: white;
+}
+
+/*___________________________ССЫЛКИ_________________________________________________________________________________________________________________________________________________________________________________________*/
+
+.dropdown {
+  position: relative;
+
+}
+
+.dropdown-button {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: auto;
+  min-width: 600px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  visibility: hidden;
+  height: 150px;
+  width: 100%;
+  white-space: normal;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  text-overflow: ellipsis;
+  max-width: 600px;
+  min-height: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow-x: hidden;
+}
+
+.dropdown:focus-within .dropdown-content {
+  display: block;
+  visibility: visible;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+.dropdown:focus-within .dropdown-button {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+@media(max-width: 768px) {
+  .dropdown-button {
+    min-width: 450px !important;
+  }
+}
+
+@media(max-width: 500px) {
+  .dropdown-button {
+    min-width: 400px !important;
+  }
+}
+
+@media(max-width: 450px) {
+  .dropdown-button {
+    min-width: 350px !important;
+  }
+}
+
+@media(max-width: 400px) {
+  .dropdown-button {
+    min-width: 250px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .dropdown-content {
+    max-width: 450px !important;
+  }
+}
+
+@media(max-width: 500px) {
+  .dropdown-content {
+    max-width: 400px !important;
+  }
+}
+
+@media(max-width: 450px) {
+  .dropdown-content {
+    max-width: 350px !important;
+  }
+}
+
+@media(max-width: 400px) {
+  .dropdown-content {
+    max-width: 250px !important;
+  }
+}
+
+.dropdown-button {
+  color: rgb(69, 82, 156);
+  background-color: #f0f0f042;
+  border: 1px solid rgba(154, 169, 255, 0.575);
+}
+
+.dropdown-content {
+  color: rgb(30, 28, 136);
+  background-color: #f0f0f042;
+  border: 1px solid rgba(154, 169, 255, 0.575);
+}
+
+.dropdown-button:hover {
+  color: rgb(30, 28, 136);
+  background-color: #c0c0c056;
+  border: 1px solid rgba(154, 169, 255, 0.575);
+}
+
+.dropdown-content::-webkit-scrollbar {
+  width: 3px;
+}
+
+.dropdown-content::-webkit-scrollbar-track {
+  background-color: #f0f0f042;
+  border-radius: 100px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+  background-color: rgba(163, 163, 163, 0.438);
+  border-radius: 100px;
 }

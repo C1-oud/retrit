@@ -1,14 +1,5 @@
-
-/* ГРАДИЕНТ */
- .navbar {
-    background: linear-gradient(45deg, rgba(119,200,234,1) 0%,rgba(159,216,239,1) 19%,rgba(159,216,239,1) 30%,rgba(159,216,239,1) 36%,rgba(191,232,249,1) 42%,rgba(191,232,249,1) 53%,rgba(228,245,252,1) 70%,rgba(228,245,252,1) 100%) 
-  } 
-
-
-  
-    
-    /* ПОДЧЕРКИВАНИЕ */
-    :root {
+  /* ПОДЧЕРКИВАНИЕ */
+    /* :root {
       --borderColor: #858383;}
 .text {
       &::before,
@@ -40,26 +31,55 @@
         border: none;
         outline: none;
         background-color: white;
+      } */
+      .dropdown {
+        display: inline-block;
       }
-       
-       /* ТЕМНАЯ ТЕМА */
-      body {
-        background-color: #f8f9fa; 
-    }
-    
-    .text-light {
-        color: #000; 
-    }
-    
-    .dark-mode {
-        background-color: #343a40; 
-    }
-    
-    .dark-mode .text-light {
-        color: #fff; 
-    }
-.icon-button {
-      background: none;
-      border: none;
-      cursor: pointer;
-} 
+      
+      .dropdown-button {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 10px;
+        width: 250px;
+        border: none;
+        border-end-end-radius: 10px;
+        border-end-start-radius: 10px;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        height: 250px;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 250px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 0px;
+        overflow-y: hidden;
+      }
+      
+      .dropdown-content ul {
+        padding: 0;
+        margin: 0;
+      }
+      
+      .dropdown-content li {
+        display: inline-block;
+      }
+      
+      .dropdown-content img {
+        height: 200px;
+        width: auto;
+        max-width: 250px;
+      }
+      
+      .dropdown-content::-webkit-scrollbar {
+        height: 0;
+      }
+   
+   
