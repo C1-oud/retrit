@@ -6,11 +6,15 @@ body {
   margin: 0;
   padding: 0;
   overflow: auto;
-
+  <<<<<<< HEAD=======
 }
+
+>>>>>>>main
+}
+
 .icon-button img {
-    width: 21px;
-    height: 21px;
+  width: 21px;
+  height: 21px;
 }
 
 .icon-button {
@@ -19,33 +23,36 @@ body {
   cursor: pointer;
 }
 
-.icon-button.moon:hover{
+.icon-button.moon:hover {
   background-color: #E7EBFF;
   transition: 0.5s;
 }
 
-.icon-button.sun:hover{
+.icon-button.sun:hover {
   background-color: #FDF5E1;
   transition: 0.5s;
 }
 
 @media(max-width: 500px) {
+
   .btn2,
   .btn4,
   .btn6,
   .btn8 {
-      width: 300px !important;
+    width: 300px !important;
   }
 }
 
 @media(max-width: 450px) {
+
   .btn2,
   .btn4,
   .btn6,
   .btn8 {
-      width: 200px !important;
+    width: 200px !important;
   }
 }
+
 /* _________________________main___________________________________________________________________________________________________ */
 
 main {
@@ -68,22 +75,22 @@ main {
 .btn5,
 .btn7 {
   width: 45px;
-  padding: 10px !important; 
+  padding: 10px !important;
 }
 
 .btn2,
 .btn4,
 .btn6,
 .btn8 {
-  width:400px; 
+  width: 400px;
   padding: 10px !important;
 }
 
-.buttons{
+.buttons {
   gap: 15px;
 }
 
-a > img {
+a>img {
   background-color: transparent;
   border: none
 }
@@ -91,17 +98,13 @@ a > img {
 header {
   background-color: #30445a;
   color: #bdc3c7;
-  
 }
 
-main {
-  background-color: #2c3e50;
-  color: #d1d8e0;
-}
-
-main .firstmain{
+main .firstmain {
+  flex-grow: 1;
   background-color: #34495cbd;
   color: #bdc3c7;
+  height: 100%;
   -webkit-box-shadow: 0px 0px 10px 2px rgba(12, 15, 22, 0.2);
   -moz-box-shadow: 0px 0px 10px 2px rgba(12, 15, 22, 0.2);
   box-shadow: 0px 0px 10px 2px rgba(12, 15, 22, 0.2);
@@ -121,7 +124,7 @@ main hr {
 /* _____________________________КНОПКИ___________________________ */
 
 /* border */
-.buttons a{
+.buttons a {
   color: white;
 }
 
@@ -130,7 +133,8 @@ main hr {
 }
 
 .btn-f2 a {
-  border-color: #1c238f59 !important;;
+  border-color: #1c238f59 !important;
+  ;
 }
 
 .btn-f3 a {
@@ -142,11 +146,11 @@ main hr {
 }
 
 /* background */
-.btn-f1  {
+.btn-f1 {
   background-color: #ffb3f998;
 }
 
-.btn-f2  {
+.btn-f2 {
   background-color: #a0a1ff8c;
 }
 
@@ -154,48 +158,57 @@ main hr {
   background-color: #b9f2fc91;
 }
 
-.btn-f4  {
+.btn-f4 {
   background-color: #b7ffbd86;
 }
 
 /* HOVER */
-.buttons:hover a{
+.buttons:hover a {
   color: white;
 }
-.btn-f1:hover  {
+
+.btn-f1:hover {
   background-color: #fd78f0d2;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn1, .btn2{
+
+.btn1,
+.btn2 {
   background-color: transparent !important;
 }
 
-.btn-f2:hover  {
+.btn-f2:hover {
   background-color: #759affda;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn3, .btn4{
+
+.btn3,
+.btn4 {
   background-color: transparent !important;
 }
 
 
-.btn-f3:hover  {
+.btn-f3:hover {
   background-color: #82e6f8c7;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn5, .btn6{
+
+.btn5,
+.btn6 {
   background-color: transparent !important;
 }
 
-.btn-f4:hover  {
+.btn-f4:hover {
   background-color: #b7ffa8c5;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn7, .btn8{
+
+.btn7,
+.btn8 {
   background-color: transparent !important;
 }
 
@@ -224,7 +237,7 @@ main hr {
 
 .dropdown {
   position: relative;
-  
+
 }
 
 .dropdown-button {

@@ -1,20 +1,22 @@
 /* _________________________header___________________________________________________________________________________________________ */
 
-body{
+body {
   font-family: 'Comfortaa', sans-serif !important;
   height: 100vh;
   margin: 0;
   padding: 0;
   overflow: auto;
+  <<<<<<< HEAD
 }
 
-.sun{
+.sun {
   display: none;
+  =======>>>>>>>main
 }
 
 .icon-button img {
-    width: 21px;
-    height: 21px;
+  width: 21px;
+  height: 21px;
 }
 
 .icon-button {
@@ -23,33 +25,36 @@ body{
   cursor: pointer;
 }
 
-.icon-button.moon:hover{
+.icon-button.moon:hover {
   background-color: #E7EBFF;
   transition: 0.5s;
 }
 
-.icon-button.sun:hover{
+.icon-button.sun:hover {
   background-color: #FDF5E1;
   transition: 0.5s;
 }
 
 @media(max-width: 500px) {
+
   .btn2,
   .btn4,
   .btn6,
   .btn8 {
-      width: 300px !important;
+    width: 300px !important;
   }
 }
 
 @media(max-width: 450px) {
+
   .btn2,
   .btn4,
   .btn6,
   .btn8 {
-      width: 200px !important;
+    width: 200px !important;
   }
 }
+
 /* _________________________main___________________________________________________________________________________________________ */
 
 main {
@@ -72,22 +77,22 @@ main {
 .btn5,
 .btn7 {
   width: 45px;
-  padding: 10px !important; 
+  padding: 10px !important;
 }
 
 .btn2,
 .btn4,
 .btn6,
 .btn8 {
-  width:400px; 
+  width: 400px;
   padding: 10px !important;
 }
 
-.buttons{
+.buttons {
   gap: 15px;
 }
 
-a > img {
+a>img {
   background-color: transparent;
   border: none
 }
@@ -102,7 +107,7 @@ main {
   color: #a04242;
 }
 
-main .firstmain{
+main .firstmain {
   flex-grow: 1;
   color: #a04242;
   background-color: #dff7fab0;
@@ -124,7 +129,7 @@ main hr {
 }
 
 /* border */
-.buttons a{
+.buttons a {
   color: black;
 }
 
@@ -149,11 +154,11 @@ main hr {
 }
 
 /* background */
-.btn-f1  {
+.btn-f1 {
   background-color: #ffb3f936;
 }
 
-.btn-f2  {
+.btn-f2 {
   background-color: #a0a1ff1e;
 }
 
@@ -161,50 +166,58 @@ main hr {
   background-color: #abf2ff25;
 }
 
-.btn-f4  {
+.btn-f4 {
   background-color: #b7ffbd18;
 }
 
 /* HOVER */
-.buttons:hover a{
+.buttons:hover a {
   color: black;
 }
 
-.btn-f1:hover  {
+.btn-f1:hover {
   background-color: #fcc6f7b0;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn1, .btn2{
+
+.btn1,
+.btn2 {
   background-color: transparent !important;
 }
 
 
-.btn-f2:hover  {
+.btn-f2:hover {
   background-color: #a0baffb0;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn3, .btn4{
+
+.btn3,
+.btn4 {
   background-color: transparent !important;
 }
 
 
-.btn-f3:hover  {
+.btn-f3:hover {
   background-color: #a7edfaa1;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn5, .btn6{
+
+.btn5,
+.btn6 {
   background-color: transparent !important;
 }
 
-.btn-f4:hover  {
+.btn-f4:hover {
   background-color: #d9ffd1b0;
   transition: 0.15s;
   transform: scale(1.05);
 }
-.btn7, .btn8{
+
+.btn7,
+.btn8 {
   background-color: transparent !important;
 }
 
@@ -233,7 +246,7 @@ main hr {
 
 .dropdown {
   position: relative;
-  
+
 }
 
 .dropdown-button {
