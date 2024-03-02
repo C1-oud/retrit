@@ -1,9 +1,13 @@
 
-var dropdownContent = document.querySelector('.dropdown-content');
-var scrollWidth = dropdownContent.scrollWidth;
+// var dropdownContent = document.querySelector('.dropdown-content');
+// var scrollWidth = dropdownContent.scrollWidth;
 
-dropdownContent.addEventListener('wheel', function(event) {
-  event.preventDefault();
-  dropdownContent.scrollLeft += event.deltaY;
+// dropdownContent.addEventListener('wheel', function(event) {
+//   event.preventDefault();
+//   dropdownContent.scrollLeft += event.deltaY;
 
-});
+// });
+
+
+
+  

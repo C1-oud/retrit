@@ -455,36 +455,6 @@ main hr {
     position: absolute;
   }
 
-
-
-  #mbtn1:hover {
-    background-color: #d9ffd1b0;
-    transition: 0.15s;
-    transform: scale(1.05);
-  }
-  
-  #mbtn1 {
-    background-color: transparent !important;
-  }
-  
-  #mbtn1:active {
-    background-color: #83da8377;
-    color: white;
-  }
-  
-  #mbtn1 {
-    border-color: #246d2477;
-  }
-  
-  #mbtn1 {
-    background-color: #b7ffbd18;
-  }
-  
-  #mbtn1 img{
-    max-width: 43px;
-    max-height: 30px;
-  }
-
   /*________________________________comments_____________________________________________________*/
   .learn-more {
     position: relative;
@@ -576,4 +546,124 @@ main hr {
 
 
   
-  
+
+
+
+#mbtn1 {
+  background-color: transparent;
+  max-height: 46px;
+  margin-top: 28px;
+  width: 60px;
+  background-color: rgba(248, 224, 250, 0.767);
+  border-color: #fcb5ecd3;
+}
+
+#mbtn1:hover {
+  background-color: #ffd1f5b0;
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+#mbtn1:active {
+  background-color: #f1aee3c4;
+}
+
+
+#mbtn1 img{
+  max-width: 43px;
+  max-height: 30px;
+}
+
+
+
+
+#mbtn2 {
+  background-color: transparent;
+  max-height: 46px;
+  margin-top: 28px;
+  width: 60px;
+  border-color: rgba(59, 63, 112, 0.418);
+  background-color: #24349c4b;
+}
+
+#mbtn2:hover {
+  background-color: #18277a73;
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+
+#mbtn2:active {
+  background-color: #18277a81;
+}
+
+#mbtn2 img{
+  max-width: 43px;
+  max-height: 30px;
+}
+
+
+
+#mbtn3 {
+  background-color: transparent;
+  max-height: 46px;
+  margin-top: 28px;
+  width: 60px;
+  background-color: #00b7ff23;
+  border-color: #2a667e5b;
+}
+
+#mbtn3:hover {
+  background-color: #00b7ff41;
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+
+#mbtn3:active {
+  background-color: #00b7ff59;
+}
+
+#mbtn3 img{
+  max-width: 43px;
+  max-height: 30px;
+}
+
+
+
+#mbtn4 {
+  background-color: transparent;
+  max-height: 46px;
+  margin-top: 28px;
+  width: 60px;
+  background-color: #b7ffbd3d;
+  border-color: #246d2477;
+}
+
+#mbtn4:hover {
+  background-color: rgba(217, 255, 209, 0.829);
+  transition: 0.15s;
+  transform: scale(1.05);
+}
+
+
+#mbtn4:active {
+  background-color: #83da8377;
+}
+
+#mbtn4 img{
+  max-width: 43px;
+  max-height: 30px;
+}
+
+.mbtn {
+  margin-top: 40px;
+  width: auto;
+  height: 100px;
+  background-color: rgba(233, 244, 248, 0.829);
+  border-radius: 10px;
+  border: 1px solid rgb(35, 71, 82);
+  -webkit-box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
+  -moz-box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
+  box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
+}
