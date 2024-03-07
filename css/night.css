@@ -164,7 +164,7 @@ header {
 }
 
 .btn-ret .btn {
-  color: black;
+  color: #bdc3c7;
 }
 
 .btn-ret .btn:hover{
@@ -199,118 +199,6 @@ main hr {
   -webkit-box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
   -moz-box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
   box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
-}
-
-/* _____________________________КНОПКИ___________________________ */
-
-/* border */
-.buttons a {
-  color: white;
-}
-
-.btn-f1 a {
-  border-color: #801e7688 !important;
-}
-
-.btn-f2 a {
-  border-color: #1c238f59 !important;
-  ;
-}
-
-.btn-f3 a {
-  border-color: #3f7c859c !important;
-}
-
-.btn-f4 a {
-  border-color: #246d2477 !important;
-}
-
-/* background */
-.btn-f1 {
-  background-color: #ffb3f998;
-}
-
-.btn-f2 {
-  background-color: #a0a1ff8c;
-}
-
-.btn-f3 {
-  background-color: #b9f2fc91;
-}
-
-.btn-f4 {
-  background-color: #b7ffbd86;
-}
-
-/* HOVER */
-.buttons:hover a {
-  color: white;
-}
-
-.btn-f1:hover {
-  background-color: #fd78f0d2;
-  transition: 0.15s;
-  transform: scale(1.05);
-}
-
-.btn1,
-.btn2 {
-  background-color: transparent !important;
-}
-
-.btn-f2:hover {
-  background-color: #759affda;
-  transition: 0.15s;
-  transform: scale(1.05);
-}
-
-.btn3,
-.btn4 {
-  background-color: transparent !important;
-}
-
-
-.btn-f3:hover {
-  background-color: #82e6f8c7;
-  transition: 0.15s;
-  transform: scale(1.05);
-}
-
-.btn5,
-.btn6 {
-  background-color: transparent !important;
-}
-
-.btn-f4:hover {
-  background-color: #b7ffa8c5;
-  transition: 0.15s;
-  transform: scale(1.05);
-}
-
-.btn7,
-.btn8 {
-  background-color: transparent !important;
-}
-
-/* active */
-.btn-f1:active {
-  background-color: #e78ede88;
-  color: #bdc3c7;
-}
-
-.btn-f2:active {
-  background-color: #8086df59;
-  color: #bdc3c7;
-}
-
-.btn-f3:active {
-  background-color: #69dff19c;
-  color: #bdc3c7;
-}
-
-.btn-f4:active {
-  background-color: #83da8377;
-  color: #bdc3c7;
 }
 
 /* /////////// */
@@ -353,11 +241,34 @@ main hr {
 
 .card {
   min-width: 300px !important;
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
+
+.card::-webkit-scrollbar {
+  width: 7px;
+}
+
+.card::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 100px;
+}
+
+.card::-webkit-scrollbar-thumb {
+  background-color: rgba(163, 163, 163, 0.438);
+  border-radius: 100px;
+}
+
 
 .card>img {
   height: 50px;
   width: 50px;
+}
+
+.card-img {
+  max-height: 50px;
+  max-width: 50px;
 }
 
 #comments {
@@ -448,9 +359,6 @@ main hr {
     border-radius: 50px;
   }
 
-
-
-  
   .services>h4 {
     position: absolute;
   }
@@ -582,19 +490,19 @@ main hr {
   max-height: 46px;
   margin-top: 28px;
   width: 60px;
-  border-color: rgba(59, 63, 112, 0.418);
-  background-color: #24349c4b;
+  border-color: rgba(69, 34, 126, 0.418);
+  background-color: #17003d9a;
 }
 
 #mbtn2:hover {
-  background-color: #18277a73;
+  background-color: #3003779a;
   transition: 0.15s;
   transform: scale(1.05);
 }
 
 
 #mbtn2:active {
-  background-color: #18277a81;
+  background-color: #6c5196a1;
 }
 
 #mbtn2 img{
@@ -636,19 +544,19 @@ main hr {
   max-height: 46px;
   margin-top: 28px;
   width: 60px;
-  background-color: #b7ffbd3d;
-  border-color: #246d2477;
+  background-color: #ff00005d;
+  border-color: #c752527c;
 }
 
 #mbtn4:hover {
-  background-color: rgba(217, 255, 209, 0.829);
+  background-color: rgba(255, 150, 150, 0.829);
   transition: 0.15s;
   transform: scale(1.05);
 }
 
 
 #mbtn4:active {
-  background-color: #83da8377;
+  background-color: #df6c6cd8;
 }
 
 #mbtn4 img{
@@ -667,3 +575,75 @@ main hr {
   -moz-box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
   box-shadow: 0px 5px 13px 5px rgba(2, 6, 15, 0.212);
 }
+
+/*_______________summary___________________*/
+.summary {
+  text-decoration: none;
+  color: #c7c0c0;
+}
+
+.summary-text {
+  color:  #d1d8e0 !important;
+}
+
+
+
+/*_______________test___________________*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #30445a !important;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 80%;
+  color: var(--main1-color) !important;
+}
+
+#openModalBtn {
+  color: var(--h12-color) !important
+}
+
+#openModalBtn:hover {
+  color: #d1d8e0 !important
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal-content .close{
+  display: flex;
+  align-self: flex-end;
+}
+
+#openModalBtn {
+  border: 0;
+}
+
+
+
+
+
+
+
+
+

@@ -20,3 +20,6 @@ commentsContent.addEventListener("wheel", (e) => {
   e.preventDefault ? e.preventDefault() : (e.returnValue = false);
 
 });
+
+
+
