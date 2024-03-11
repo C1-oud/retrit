@@ -2,13 +2,13 @@
 :root {
   --moonhover-color: #E7EBFF; 
   --sunhover-color: #FDF5E1; 
-  --main2-color: #ccbfb6;
-  --main1-color: #5b7766; 
-  --main3-color: #e7dac7;
+  --main2-color: #f3f3f3;
+  --main1-color: #fdf4f4; 
+  --main3-color: #ebebeb;
   
 
-  --h12-color: #e7dac7; 
-  --p-color: rgb(214, 224, 215); 
+  --h12-color: #967f5d; 
+  --p-color: rgb(114, 134, 117); 
 
   --black-color: black; 
   --white-color: white; 
@@ -67,7 +67,7 @@
 /* _________________________header___________________________________________________________________________________________________ */
 
 body {
-  font-family: 'Comfortaa', sans-serif !important;
+  font-family: 'Cormorant Infan', serif !important;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -646,16 +646,31 @@ button:hover .button-text {
 }
 
 /*_______________summary___________________*/
+
 .summary {
   text-decoration: none;
   color: var(--h12-color);
+  padding: 10px 10px;
+  background-color: #ffffff79;
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 50px;
+}
+
+.summary:hover {
+  background-color: #ffffffb9;
+  border: 1px solid rgba(26, 26, 26, 0.623);
+}
+
+.summary:active {
+  background-color: #b4b4b465;
+  border: 1px solid rgba(37, 37, 37, 0.651);
 }
 
 .summary-text {
   color: var(--p-color) !important;
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
-
-
 
 
 /*_______________test___________________*/
@@ -670,12 +685,12 @@ button:hover .button-text {
 }
 
 .modal-content {
-  background-color: var(--main3-color) !important;
+  background-color: var(--main1-color) !important;
   margin: 10% auto;
   padding: 20px;
   border: 1px solid #888;
   max-width: 80%;
-  color: var(--main1-color) !important;
+  color: var(--h12-color) !important;
 }
 
 #openModalBtn {
@@ -695,7 +710,7 @@ button:hover .button-text {
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: var(--h12-color);
   text-decoration: none;
   cursor: pointer;
 }
@@ -706,6 +721,25 @@ button:hover .button-text {
   align-self: flex-end;
 }
 
+
+
 #openModalBtn {
-  border: 0;
+  text-decoration: none;
+  color: var(--h12-color);
+  padding: 10px 10px;
+  background-color: #ffffff79;
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 50px;
 }
+
+#openModalBtn:hover {
+  background-color: #ffffffb9;
+  border: 1px solid rgba(26, 26, 26, 0.623);
+  color:  rgb(139, 139, 139) !important;
+}
+
+#openModalBtn:active {
+  background-color: #b4b4b465;
+  border: 1px solid rgba(37, 37, 37, 0.651);
+}
+

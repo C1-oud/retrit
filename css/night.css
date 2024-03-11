@@ -1,7 +1,7 @@
 /* _________________________header___________________________________________________________________________________________________ */
 
 body {
-  font-family: 'Comfortaa', sans-serif !important;
+  font-family: 'Cormorant Infan', serif !important;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -123,6 +123,31 @@ main {
   margin-bottom: 50px;
 }
 
+
+.summary {
+  text-decoration: none;
+  color: var(--h12-color);
+  padding: 10px 10px;
+  background-color: #ffffff79;
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 50px;
+}
+
+.summary:hover {
+  background-color: #ffffffb9;
+  border: 1px solid rgba(26, 26, 26, 0.623);
+}
+
+.summary:active {
+  background-color: #b4b4b465;
+  border: 1px solid rgba(37, 37, 37, 0.651);
+}
+
+.summary-text {
+  color: var(--p-color) !important;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
 /* ______________________КНОПКИ__________________________________________________________________ */
 
 .buttons img {
@@ -635,14 +660,27 @@ main hr {
   align-self: flex-end;
 }
 
+
+
 #openModalBtn {
-  border: 0;
+  text-decoration: none;
+  color: var(--h12-color);
+  padding: 10px 10px;
+  background-color: #ffffff79;
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 50px;
 }
 
+#openModalBtn:hover {
+  background-color: #ffffffb9;
+  border: 1px solid rgba(26, 26, 26, 0.623);
+  color:  rgb(139, 139, 139) !important;
+}
 
-
-
-
+#openModalBtn:active {
+  background-color: #b4b4b465;
+  border: 1px solid rgba(37, 37, 37, 0.651);
+}
 
 
 
