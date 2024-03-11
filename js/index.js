@@ -20,3 +20,36 @@ commentsContent.addEventListener("wheel", (e) => {
   e.preventDefault ? e.preventDefault() : (e.returnValue = false);
 
 });
+
+
+
+
+
+var modal = document.getElementById("myModal");
+var openModalBtn = document.getElementById("openModalBtn");
+var closeModalBtn = document.getElementById("closeModalBtn");
+var closeModalBtn2 = document.getElementById("closeModalBtn2");
+
+// Показываем модальное окно при клике на кнопку открытия
+openModalBtn.addEventListener("click", function() {
+    modal.style.display = "block";
+});
+
+// Закрываем модальное окно при клике на кнопку закрытия
+closeModalBtn.addEventListener("click", function() {
+    modal.style.display = "none";
+});
+
+closeModalBtn2.addEventListener("click", function() {
+    modal.style.display = "none";
+});
+
+// Закрываем модальное окно при клике вне модального окна
+window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+});
+
+
+
