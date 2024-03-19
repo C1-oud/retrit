@@ -65,12 +65,18 @@
 /* _________________________header___________________________________________________________________________________________________ */
 
 body {
-  font-family: 'Cormorant Infan', serif !important;
+  font-family: "Cormorant SC", serif !important;
   height: 100vh;
   margin: 0;
   padding: 0;
   overflow: auto;
   background-color: var(--body-color);
+}
+
+p {
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .sun {
