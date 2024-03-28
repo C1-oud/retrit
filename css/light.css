@@ -300,7 +300,7 @@ main hr {
   list-style: none;
   white-space: nowrap;
   position: absolute;
-  animation: scroll-left 5s linear infinite;
+  animation: scroll-left 8s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -309,7 +309,7 @@ main hr {
   }
 
   100% {
-    transform: translateX(-810px);
+    transform: translateX(-1345px);
 
   }
 }
