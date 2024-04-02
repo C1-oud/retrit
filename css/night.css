@@ -221,6 +221,11 @@ main hr {
   max-width: 280px;
 }
 
+#btn-italy {
+  width: auto !important;
+  padding: 0 20px 10px 20px !important;
+}
+
 /* /////////// */
 
 .dropdown-content {
