@@ -21,10 +21,6 @@ commentsContent.addEventListener("wheel", (e) => {
 
 });
 
-
-
-
-
 var modal = document.getElementById("myModal");
 var openModalBtn = document.getElementById("openModalBtn");
 var closeModalBtn = document.getElementById("closeModalBtn");
