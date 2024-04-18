@@ -240,7 +240,7 @@ main hr {
   list-style: none;
   white-space: nowrap; 
   position: absolute; 
-  animation: scroll-left 8s linear infinite; 
+  animation: scroll-left 13s linear infinite; 
 }
 
 @keyframes scroll-left {
