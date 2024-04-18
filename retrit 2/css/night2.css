@@ -107,10 +107,6 @@ main {
   margin-top: 50px;
 }
 
-h5 {
-  position: absolute;
-}  
-
 main hr {
   color: #bdc3c7;
   border: 1px solid #bdc3c7;
@@ -176,6 +172,10 @@ a>img {
   margin-top: 100px;
 }
 
+.main-title h4 {
+  text-align: center;
+}
+
 #hr-title {
   width: 35%;
   margin-left: auto;
@@ -204,12 +204,20 @@ font-weight: 500;
 font-size: 35px;
 }
 
+.text-retrit2 h5 {
+  color: var(--h12-color);
+  font-family: 'mirra' !important;
+  font-size: 30px;
+}
+
 .summary {
   text-decoration: none;
   color: var(--h12-color);
   padding: 10px 10px;
   background-color: #ffffff79;
   border-radius: 50px;
+  min-width: 300px;
+  text-align: center;
 }
 
 .summary:hover {
@@ -285,10 +293,11 @@ font-size: 35px;
   text-decoration: none;
   margin-top: -10px;
   z-index: 2;
+  min-width: 300px;
 }
 
 .btn-order::before {
-  background-color: rgba(1, 60, 255, 0.233) !important;
+  background-color: #ffffff79 !important;
   content: '';
   position: absolute;
   top: 0;
@@ -318,7 +327,7 @@ font-size: 35px;
   transition: all 0.3s;
   transform: scale(1.2,1.2);
   border-radius: 50px;
-  background-color: rgba(21, 47, 131, 0.438);
+  background-color: #ffffff42;
 }
 
 .btn-order:hover::after {
@@ -328,7 +337,7 @@ font-size: 35px;
 }
 
 .btn-order:active {
-  background-color: rgba(14, 41, 63, 0.596);
+  background-color: #b4b4b465;
   color: #ffffff;
   border-radius: 50px;
 }
@@ -401,23 +410,33 @@ font-size: 35px;
   
   .y-img img {
     max-width: 70%;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
   }
-}
 
-@media (max-width: 625px) {
-  .imageretrir{
-    display: flex;
-    justify-content: center;
+  .text-retrit2 h5 {
+    color: var(--h12-color);
+    font-family: 'mirra' !important;
+    font-size: 20px;
+  }
+  
+  .hr {
+    margin-top: 40px;
+    margin-bottom: 0px;
   }
 
-  .imageretrir img{
-    display: flex;
-    max-height: 450px;
-    max-width: 500px;
-    max-width: auto;
+  .main-title h1 {
+    font-size: 25px;
+  }
+
+  .y-img {
+    padding: 0;
+    margin-bottom: 30px;
     margin-top: 30px;
+  }
+
+  .main-title {
+    margin-top: 40px;
   }
 }
 
