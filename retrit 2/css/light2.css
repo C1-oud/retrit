@@ -506,6 +506,10 @@ h1 {
   .main-title {
     margin-top: 40px;
   }
+
+  main {
+    margin-top: 80px;
+  } 
 }
 
 @media (max-width: 625px) {
